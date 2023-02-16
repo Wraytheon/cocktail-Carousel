@@ -1,26 +1,15 @@
-.carousel-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+* {
+  box-sizing: border-box;
 }
 
-.carousel-slide {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+html {
+  font-size: 62.5%;
 }
 
-.drink-info {
-  width: 50%;
-  padding: 0 1rem;
-}
-
-.drink-image {
-  width: 50%;
-  padding: 0 1rem;
-}
-
-.drink-image img {
+body {
+  font-size: 1.6rem;
+  width: 100vw;
   max-width: 100%;
-  height: auto;
+  background-color: #f2f2f2;
+  padding: 2rem 0;
 }
