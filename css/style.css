@@ -27,3 +27,13 @@ body {
   align-items: center;
 }
 
+.drink-name {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.drink-info {
+  padding: 0 20px;
+  max-width: 50%;
+}
+
