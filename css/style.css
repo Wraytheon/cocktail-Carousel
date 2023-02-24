@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-html {
+/* html {
   font-size: 62.5%;
 }
 
@@ -12,44 +12,11 @@ body {
   max-width: 100%;
   background-color: #f2f2f2;
   padding: 2rem 0;
-}
-.carousel {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-}
+} */
 
-.carousel-item {
-  flex: 0 0 50%;
-  scroll-snap-align: start;
-  display: flex;
-  align-items: center;
-}
-
-.drink-info {
-  padding: 0 20px;
-  max-width: 50%;
-}
-
-.drink-name {
-  font-size: 24px;
-  margin: 0 0 10px;
-}
-
-.ingredients {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px;
-}
-
-.drink-image {
-  flex: 0 0 50%;
-}
-
-.drink-image img {
-  max-width: 100%;
-  height: auto;
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
 }
 
 
