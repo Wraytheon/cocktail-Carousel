@@ -1,22 +1,20 @@
 * {
   box-sizing: border-box;
 }
-
-/* html {
-  font-size: 62.5%;
+body {
+  background-color: black;
 }
 
-body {
-  font-size: 1.6rem;
-  width: 100vw;
-  max-width: 100%;
-  background-color: #f2f2f2;
-  padding: 2rem 0;
-} */
 
-.carousel-item img {
+img {
   height: 80vh;
+  width: 100%;
   object-fit: cover;
+}
+
+h1 {
+  text-align: center;
+  color: white;
 }
 
 
